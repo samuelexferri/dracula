@@ -1,12 +1,8 @@
 # Dracula
 
 <p align="center">
-<img src="https://github.com/samuelexferri/dracula/blob/master/dracula.svg" width="500">
+<img src="https://github.com/samuelexferri/dracula/blob/master/dracula.svg" width="300">
 </p>
-
-[Dracula](https://draculatheme.com/)
-
-[Dracula Color Palette](https://draculatheme.com/contribute#color-palette)
 
 Persona Dracula Themes for various application such as:
 
@@ -22,6 +18,8 @@ Persona Dracula Themes for various application such as:
 -   Terminal (Powershell, Windows Terminal)
 -   Visual Studio Code
 
+[Dracula Color Palette](https://draculatheme.com/contribute#color-palette)
+
 ![alt text](https://img.shields.io/badge/Language-English-infomrmational?style=for-the-badge)
 
 ## Authors
@@ -29,6 +27,10 @@ Persona Dracula Themes for various application such as:
 ### Team
 
 -   **Samuele Ferri**: [Site](https://samuelexferri.com), [GitHub](https://github.com/samuelexferri)
+
+### Credits
+
+-   [Dracula](https://draculatheme.com/)
 
 ## Version
 
