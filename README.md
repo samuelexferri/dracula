@@ -1,10 +1,10 @@
 # Dracula
 
 <p align="center">
-<img src="https://github.com/samuelexferri/dracula/blob/master/dracula.svg" width="300">
+<img src="https://github.com/samuelexferri/dracula/blob/master/dracula.svg" width="200">
 </p>
 
-Persona Dracula Themes for various application such as:
+Personal Dracula themes for various application such as:
 
 -   Atom
 -   Discord (BetterDiscord)
