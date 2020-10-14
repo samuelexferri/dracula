@@ -18,4 +18,6 @@ Move the `wal` folder to:
 
     C:\Users\[user]\.cache
 
+Modify the start page in Thunderbird settings: `https://draculatheme.com/`
+
 Manually modify the colors of the labels according to [Dracula Color Palette](https://draculatheme.com/contribute#color-palette) and disable default about page at start
