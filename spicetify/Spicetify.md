@@ -9,3 +9,7 @@ Command-line tool to customize Spotify client
 ## Instructions
 
 Replace the `Helvetica Neue` font family by `Arial`
+
+```bash
+spicetify backup apply enable-devtool
+```
