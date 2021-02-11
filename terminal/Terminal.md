@@ -24,6 +24,20 @@ Theme: [Dracula](https://draculatheme.com/)
 
 Install `Cascadia Code PL` font family (All)
 
+## Various
+
+Use Chocolatey, Package Manager for Windows
+
+```bash
+choco install <package>
+```
+
+Clear history:
+
+```bash
+(Get-PSReadlineOption).HistorySavePath
+```
+
 ## Extensions
 
 ### Git aliases for PowerShell

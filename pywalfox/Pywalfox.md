@@ -1,6 +1,6 @@
 # Pywalfox
 
-[Pywalfox](https://github.com/Frewacom/pywalfox)
+[pywalfox](https://github.com/Frewacom/pywalfox)
 
 Theme: Dracula (Modified)
 
