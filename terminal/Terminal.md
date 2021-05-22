@@ -4,25 +4,45 @@ Terminal modifications
 
 ## Dracula
 
-### Powershell
+### Windows Terminal-Powershell
 
 Theme: [Dracula](https://draculatheme.com/)
 
-    C:\Users\samuelexferri\Documents\WindowsPowerShell
+After official instruction for the color palette, follow this passages:
 
-Install `Menlo for Powerline` font family
+Install `scoop`:
+
+    Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+
+Install `oh-my-posh`:
+
+    scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
+    Install-Module oh-my-posh -Scope CurrentUser
+
+Move the file `dracula.omp.json` into:
+
+    %USERPROFILE%\Documents\PowerShell\Modules\oh-my-posh\<Version>\Themes
+
+Set the new theme for `oh-my-posh`:
+
+    Set-PoshPrompt -Theme dracula
+
+Move the file `Microsoft.PowerShell_profile.ps1` into:
+
+    %USERPROFILE%\Documents\WindowsPowerShell
+
+In case of errors, run:
+
+    Set-ExecutionPolicity unrestricted
+    Unblock-File .\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+
+Install `CaskaydiaCove Nerd Font` font family and set in the Windows Terminal settings:
+
+    CaskaydiaCove Nerd Font
 
 ### Visual Studio Code
 
-Add `Cascadia Code PL` as font family in the settings
-
-### Windows Terminal
-
-Theme: [Dracula](https://draculatheme.com/)
-
-    C:\Users\samuelexferri\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
-
-Install `Cascadia Code PL` font family (All)
+Add `CaskaydiaCove Nerd Font` as font family in the Visual Studio Code settings
 
 ## Various
 
@@ -40,14 +60,6 @@ Clear history:
 
 ## Extensions
 
-### Git aliases for PowerShell
-
-[Git aliases for PowerShell](https://github.com/gluons/powershell-git-aliases)
-
 ### oh-my-posh
 
 [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)
-
-### thefuck
-
-[thefuck](https://github.com/nvbn/thefuck)
